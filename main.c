@@ -265,7 +265,7 @@ void actualizare() {
             printf("Data: ");
             fgets(angajati[i].dataangajare, 11, stdin);
             angajati[i].dataangajare[strcspn(angajati[i].dataangajare, "\n")] = 0;
-            printf("Salariu: ");
+            printf("Salariu (ex:999.99): ");
             scanf("%f", &angajati[i].salar); getchar();
             printf("CNP: ");
             fgets(angajati[i].cnp, 14, stdin);
